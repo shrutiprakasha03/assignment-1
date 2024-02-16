@@ -1,0 +1,11 @@
+2023-11-06 13:10:35.204 [info] Extension host with pid 40271 started
+2023-11-06 13:10:35.243 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-06 13:10:35.252 [info] Lock '/home/seeker/.vscode-server/data/User/workspaceStorage/a5eb35282cf32e5b312cda408710ef5c/vscode.lock': Lock acquired.
+2023-11-06 13:10:35.370 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-06 13:10:35.370 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-06 13:10:35.868 [info] Eager extensions activated
+2023-11-06 13:10:35.869 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-06 13:10:35.869 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-06 13:10:36.910 [error] Error: ENOENT: no such file or directory, scandir '/home/seeker/workspace/example-app'
+2023-11-06 13:13:06.375 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-06 13:20:37.738 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'

@@ -1,0 +1,13 @@
+2023-11-11 10:01:01.389 [info] Extension host with pid 23159 started
+2023-11-11 10:01:01.431 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-11 10:01:01.437 [info] Lock '/home/seeker/.vscode-server/data/User/workspaceStorage/1651c9dce772f5ea2ba768a3e67f950c/vscode.lock': Lock acquired.
+2023-11-11 10:01:01.457 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-11 10:01:01.457 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-11 10:01:01.824 [info] Eager extensions activated
+2023-11-11 10:01:01.825 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-11 10:01:01.825 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-11 10:04:27.077 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2023-11-11 10:04:27.078 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-11 10:24:07.466 [info] Extension host terminating: received terminate message from renderer
+2023-11-11 10:24:07.467 [info] Lock '/home/seeker/.vscode-server/data/User/workspaceStorage/1651c9dce772f5ea2ba768a3e67f950c/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-11-11 10:24:07.511 [info] Extension host with pid 23159 exiting with code 0

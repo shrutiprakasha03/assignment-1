@@ -1,0 +1,37 @@
+2024-02-02 14:36:17.109 [info] Log level: Info
+2024-02-02 14:36:17.109 [info] Validating found git in: "git"
+2024-02-02 14:36:17.109 [info] Using git "2.34.1" from "git"
+2024-02-02 14:36:17.109 [info] > git rev-parse --show-toplevel [33ms]
+2024-02-02 14:36:17.109 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 14:36:17.109 [info] > git rev-parse --show-toplevel [136ms]
+2024-02-02 14:36:17.109 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-02-02 14:36:17.109 [info] Open repository: /home/seeker/example-app
+2024-02-02 14:36:17.116 [info] > git rev-parse --show-toplevel [8ms]
+2024-02-02 14:36:17.116 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 14:36:17.118 [info] > git config --get commit.template [24ms]
+2024-02-02 14:36:17.164 [info] > git rev-parse --show-toplevel [19ms]
+2024-02-02 14:36:17.164 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 14:36:17.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [34ms]
+2024-02-02 14:36:17.195 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-02 14:36:17.195 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 14:36:17.233 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-02 14:36:17.234 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 14:36:17.272 [info] > git status -z -uall [23ms]
+2024-02-02 14:36:17.272 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-02 14:36:17.272 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 14:36:17.295 [info] > git rev-parse --show-toplevel [6ms]
+2024-02-02 14:36:17.295 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 14:36:17.306 [info] > git config --get commit.template [12ms]
+2024-02-02 14:36:17.319 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-02 14:36:17.356 [info] > git status -z -uall [2ms]
+2024-02-02 14:36:17.625 [info] > git check-ignore -v -z --stdin [2ms]
+2024-02-02 14:36:17.659 [info] > git ls-files --stage -- /home/seeker/example-app/resources/views/songs_static.blade.php [3ms]
+2024-02-02 14:36:17.665 [info] > git show --textconv :resources/views/songs_static.blade.php [14ms]
+2024-02-02 14:36:17.668 [info] > git cat-file -s 593ece247898e861c10611f3f9214a63ab1ebf17 [4ms]
+2024-02-10 14:27:37.289 [info] > git ls-files --stage -- /home/seeker/example-app/resources/css/app.css [38ms]
+2024-02-10 14:27:37.301 [info] > git show --textconv :resources/css/app.css [68ms]
+2024-02-10 14:27:37.303 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [3ms]
+2024-02-10 14:27:46.546 [info] > git show --textconv :resources/views/components/layouts/main.blade.php [23ms]
+2024-02-10 14:27:46.548 [info] > git ls-files --stage -- /home/seeker/example-app/resources/views/components/layouts/main.blade.php [3ms]
+2024-02-10 14:27:46.589 [info] > git cat-file -s dede74b25dcf6589c802ba2fcca306ba93f7b999 [2ms]
+2024-02-10 14:27:46.769 [info] > git check-ignore -v -z --stdin [6ms]
